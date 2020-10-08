@@ -25,6 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -91,8 +92,13 @@ nav a {
   height: 2.5rem;
 }
 
-nav a:hover,
+nav a:hover {
+  background-color: #1e7c74;
+}
+
 nav a:focus {
+  outline: .2rem solid black;
+  outline-offset: .1rem;
   background-color: #1e7c74;
 }
 
@@ -156,5 +162,6 @@ footer {
   justify-content: center;
   padding: 1rem;
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
 }
